@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+}
+.navtab{
+    display: flex;
+    align-items: center;
+
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+#nav1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    /* margin-top: 12px; */
+    font-family: sans-serif;
+    font-style: italic;
+
+}
+#logo_name{
+    margin-left: -42px;
+    margin-bottom: -3px;
+}
+#logo_name img{
+    width: 130px;
+    height: 22px;
+}
+
+#explore{
+    color: #9e9e9e;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+#plus{
+    color: #ffc200;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial,sans-serif;
+}
+#search_container{
+    display: flex;
+    align-items: center;
+    background-color: #f0f5ff;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#search_bar{
+    background-color: #f0f5ff;
+    width:660px;
+    height: 16px;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    
+}
+#become_seller_container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-left: -152px;
+}
+#become_seller{
+    padding: 10px;
+}
+#profile_container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-left: -99px;
+
+
+}
+#profile{
+    padding: 10px;
+}
+#cart_container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-right: 22px;
+}
+#navdrop{
+    height: 24px;
+    width: 24px;
+
+}
+#navdrp{
+    margin-right: 50px;
+}
