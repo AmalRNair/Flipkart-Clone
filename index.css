@@ -4,15 +4,23 @@
     padding: 0;
     font-family: Arial,sans-serif;
 }
+body{
+    background-color: #F1F2F4;
+    font-family: sans-serif;
+}
 .navtab{
     display: flex;
     align-items: center;
+    cursor: pointer;
+
 
 }
 #nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 12px;
+    /* margin-top: 12px; */
+    background-color: #fff;
+    height: 66px;
 }
 #nav1{
     display: flex;
@@ -26,6 +34,8 @@
 #logo_name{
     margin-left: -42px;
     margin-bottom: -3px;
+    margin-top: 12px;
+
 }
 #logo_name img{
     width: 130px;
@@ -48,9 +58,11 @@
     display: flex;
     align-items: center;
     background-color: #f0f5ff;
-    margin-left: 10px;
+    /* margin-left: 1px; */
     border-radius: 10px;
     padding-left: 10px;
+    height: 42px;
+    margin-top: 12px;
 }
 #search_bar{
     background-color: #f0f5ff;
@@ -61,35 +73,36 @@
     font-size: 17px;
     
 }
-#become_seller_container{
+/* #become_seller_container{
     display: flex;
     align-items: center;
     cursor: pointer;
     border: 1px solid black;
     margin-left: -152px;
-}
+} */
 #become_seller{
     padding: 10px;
 }
-#profile_container{
+/* #profile_container{
     display: flex;
     align-items: center;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid black;    
     margin-left: -99px;
-
-
-}
+} */
 #profile{
     padding: 10px;
 }
-#cart_container{
+#cart{
+    padding: 10px;
+}
+/* #cart_container{
     display: flex;
     align-items: center;
     cursor: pointer;
     border: 1px solid black;
     margin-right: 22px;
-}
+} */
 #navdrop{
     height: 24px;
     width: 24px;
@@ -97,4 +110,31 @@
 }
 #navdrp{
     margin-right: 50px;
+}
+
+
+/* categories list */
+
+#categories{
+    background-color: #fff;
+    height: 126px;
+    width: 1505px;
+    margin: 8px;
+    margin-left: 16px; 
+    margin-right: 16px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 550;
+    font-size: 14px;
+
+}
+#categories > div > img {
+    width: auto;
+    height: 80px;
+    padding: 2px;
+}
+#categories > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
