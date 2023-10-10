@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js" ></script>
+    <link rel="stylesheet" href="./signup.css">
+
+</head>
+<body>
+    <!-- navigationbar -->
+    <div id="container"></div>
+
+    <!-- signup box -->
+
+    <div id="outterbox">
+        <div id="innerbox">
+            <div class="leftinner_box">
+                <p id="line1">Looks like you're new here!</p>
+                <p id="line2">Sign up with your mobile number to get started</p>
+
+            </div>
+            <div id="right_Container">
+                <div class="rightinner_box">
+                    <div class="input">
+                        <input type="number" placeholder="Enter Mobile number">
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Enter your Name">
+                    </div>
+                    <div id="agree">
+                        <p>By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</p>
+                    </div>
+                    <div>
+                        <button id="continue_BUtton">CONTINUE</button>
+                    </div>
+                    <div>
+                        <button id="login_Button">Existing User? Log in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
+
+<script>
+    $("#container").load("./navigationbar.html")
+</script>
+
+
+
